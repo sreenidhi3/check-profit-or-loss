@@ -6,22 +6,24 @@ html, body{
 }
 
 .block{
-     margin: auto;
-     display: flex;   
+    margin: auto;
+    display: flex;   
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     align-self: center;
     height: auto;
+    padding: 40px;
+    background-image: linear-gradient(to bottom right, #9acccc, #c5daff, #b4c2c8);
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px -5px #ffffff;
 }
 
 body{
-    background-image:linear-gradient(to bottom right, #6d2a4be5, #5c1444e5, #66133dff);
-    
-    background-image: url("https://image.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg");
-    background-image: linear-gradient(to bottom right, #9acccc, #c5daff, #b4c2c8);
-    background-size: cover;
-    background-repeat: no-repeat;
+     display: flex;
+     background-color:  rgb(225 241 251);
+     justify-content: center;
 }
 
 body .title{
@@ -30,7 +32,7 @@ body .title{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 0 0 20px 20px;
 }
 
