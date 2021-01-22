@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>profit-or-loss</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <br />
+    <div class="div">
+        <div class="block">
+            <div class="title">
+                <h2> Stock Profit/Loss </h2>
+            </div>
+            <div class="form">
+                <select class="select">
+                    <option value=>Stock</option>
+                    <option value="AAPL">Apple</option>
+                    <option value="AMZN">Amazon</option>
+                    <option value="GOOGL">Google</option>
+                    <option value="IBM">IBM</option>
+                    <option value="NFLX">Netflix</option>
+                    <option value="TSLA">Tesla</option>
+                </select>
+                <input id="costPrice" type="number" pattern="[0-9]+(\\.[0-9][0-9]?)?" placeholder="Stock Price">
+                </input>
+                <input id="quantity" type="number" placeholder="Stock Quantity"></input>
+                <!--<input id ="sellingPrice" type="number"> Enter Selling Price of Stock </input>-->
+                <button id="bt" type="submit">Submit</button>
+            </div>
+            <p id="profitOrLoss">
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
